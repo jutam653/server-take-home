@@ -27,7 +27,14 @@ app.use('/', indexRouter);
  * TODO Add any additional endpoints here, and implement them in api.js
  */
 
+
 app.get('/creator', api.creator);
+
+app.get('/campaign', api.campaign);
+
+app.get('/campaign/media', api.media);
+
+app.get('/pricing', api.pricing);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

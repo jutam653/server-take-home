@@ -2,7 +2,7 @@
 const os = require('os');
 
 var Sequelize = require('sequelize');
-var sequelize = new Sequelize('server_take_home', 'postgres', 'password', {
+var sequelize = new Sequelize('server_take_home', 'julian', 'password', {
     host: 'localhost',
     dialect: 'postgres',
     logging: null,
